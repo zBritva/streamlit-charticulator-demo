@@ -28,6 +28,22 @@ def main():
 
     st.write("Charticulator enables you to create bespoke and reusable chart layouts without writing any code.")
 
+    st.write("Install component")
+
+    st.write("""
+        ```
+        pip3 install --upgrade streamlit-charticulator
+        ```
+    """)
+
+    st.write("Import component")
+
+    st.write("""
+        ```
+        from charticulator import charticulator
+        ```
+    """)
+
     st.write("## Configure component")
     
     st.write("For rendering charts you must provide template and data")
