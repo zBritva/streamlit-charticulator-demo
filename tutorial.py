@@ -224,6 +224,10 @@ def main():
         for index, rowIndex in enumerate(chart['rowIndices']):
             st.write(rowsList[rowIndex])
 
+    st.write("# Source")
+
+    st.write("You can find source code of component in https://github.com/zBritva/charticulator-streamlit")
+
 
 if __name__ == "__main__":
     main()
