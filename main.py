@@ -14,7 +14,7 @@ import gallery
 
 def main():
 
-    tabTutorial, tabCharts = st.tabs(["🏫 Tutorial", "📈 Charts"])
+    tabTutorial, tabCharts = st.tabs(["🏫 Tutorial", "📈 Charts gallery"])
 
     with tabCharts:
         gallery.main()
